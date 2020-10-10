@@ -1,0 +1,19 @@
+html {
+	
+}
+
+html, body {
+	margin:5;
+	top:0;
+	left:0;
+	font-family: 'Beth Ellen', cursive;
+	font-size: 1.2em
+}
+
+#writer {
+	text-align: center;
+}
+
+#firstsentence {
+	text-align: left;
+}

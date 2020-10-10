@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>expressive text</title>
+	<link rel="stylesheet" type="text/css" href="stylefortext.css">
+	<link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- first paragraph -->
+
+<nav id="writer">
+	<button onclick="typeWriter()">write</button>
+</nav>
+<nav id="firstpart">
+	<p id="firstsentence">
+		Where have I been?
+	</p>
+	<p id="secondsentence">
+		Listen, I have been diffused by clouds.
+	</p>
+
+	<script>
+	var i = 0;
+	var txt = '';
+	var speed = 50;
+
+	function typeWriter() 
+		{if (i < txt.length) 
+  	{document.getElementById("firstparagraph").innerHTML += txt.charAt(i);
+    i++;
+    	setTimeout(typeWriter, speed);
+  	}
+	}
+	</script>
+</nav>
+
+
+
+</body>
+</html>

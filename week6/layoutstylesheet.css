@@ -1,0 +1,51 @@
+@font-face {
+font-family: "Neue Display";
+  src: url(fonts/8335fcd485d80c0347de0e2e0eb784c8.eot); /* IE9*/
+  src: url(fonts/8335fcd485d80c0347de0e2e0eb784c8.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+  url(fonts/8335fcd485d80c0347de0e2e0eb784c8.woff2) format("woff2"), /* chrome、firefox */
+  url(fonts/8335fcd485d80c0347de0e2e0eb784c8.woff) format("woff"), /* chrome、firefox */
+  url(fonts/8335fcd485d80c0347de0e2e0eb784c8.ttf) format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url(fonts/8335fcd485d80c0347de0e2e0eb784c8.svg#Neue Display) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* SOM_NewSchool_JamesEwing_9441 1 */
+
+.right image {
+position: fixed;
+width: 789px;
+height: 964px;
+left: 945px;
+top: 30px;
+
+background: url(SOM_NewSchool_JamesEwing_9441.jpg);
+
+}
+
+html, body {
+	font-family:'Bebas Neue', cursive;
+	background-color: #FDFCE7;
+	width: 100%;
+	margin: 0em;
+	}
+
+
+#topnav	{
+	font-family: 'Bebas Neue', cursive;
+	color: black;
+}
+
+.gallery {
+	font-family: 'Bebas Neue';
+	color: black;
+	position: absolute;
+	bottom: 0em;
+	padding-right: 50em
+}
+
+
+
+
+

@@ -1,0 +1,67 @@
+html, body {
+	margin-top: 5%;
+	top: 0;
+	left: 0;
+	font-family: 'Catamaran', sans-serif;
+}
+
+#topnav {
+	width:100%;
+	background-color:white;
+	text-align:center;
+	position:fixed;
+	top:0;
+	box-shadow: 0em 0em 1em;
+}
+
+#topnav div {
+	display:inline-block;
+	margin: 0% 10%;
+	padding: 0% 0%;
+}
+
+#topnav h1 {
+	font-weight:300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 1em;
+	padding:10%;
+	width:100%;
+	border-radius:0.5em;
+	cursor:pointer;
+	transition: 0.5em all ease-in-out;
+}
+
+#topnav h1:hover {
+	background-color: #f2f2f2;
+	font-weight:400;
+}
+
+.aligner {
+	width:80%;
+}
+
+#sidenav {
+	display: none;
+	padding-top: 100%;
+}
+
+.gallery {
+	width: 50%;
+	padding-top: 10%;
+	margin: auto;
+}
+
+.post img {
+	width: 100%;
+}
+
+
+.post h3 {
+	font-size: 5em;
+	margin-bottom: -3%;
+	font-weight: 300;
+	color: #1d1d1d;
+	z-index: 100;
+
+}
