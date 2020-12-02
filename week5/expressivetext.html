@@ -3,39 +3,237 @@
 <head>
 	<title>expressive text</title>
 	<link rel="stylesheet" type="text/css" href="stylefortext.css">
-	<link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+</style>
 
 </head>
 <body>
 <!-- first paragraph -->
 
-<nav id="writer">
-	<button onclick="typeWriter()">write</button>
-</nav>
 <nav id="firstpart">
+
 	<p id="firstsentence">
-		Where have I been?
-	</p>
-	<p id="secondsentence">
-		Listen, I have been diffused by clouds.
+	Where   have   I   been?
 	</p>
 
+	<p id="secondsentencepartone">
+	Listen, 
+		I have been
+	</p>
+	<p id="secondsentenceparttwo">
+		diffused by clouds.
+	</p>
+	<p id="secondsentenceparttwofade">
+		diffused by clouds.
+	</p>
+</nav>
+
+<nav id="secondpart">
+	<p id="thirdsentence">
+		You can see me dancing in the foam on the crest of ocean waves. I rise into the air in a fleeting moment of euphoric suspension.
+	</p>
 	<script>
-	var i = 0;
-	var txt = '';
-	var speed = 50;
+	var aText = new Array( "You can see me dancing in the foam on the crest of ocean waves. I rise into the air in a fleeting moment of euphoric suspension.");
+	var iSpeed = 100; 
+	var iIndex = 0; 
+	var iArrLength = aText[0].length; 
+	var iScrollAt = 20; 
+ 
+	var iTextPos = 0;
+	var sContents = '';
+	var iRow;
+ 
+	function typewriter()
+	{
+ 	sContents =  ' ';
+ 	iRow = Math.max(0, iIndex-iScrollAt);
+ 	var destination = document.getElementById("thirdsentence");
+ 
+ 	while ( iRow < iIndex ) {
+  	sContents += aText[iRow++] + '<br />';
+ 		}
+ 	destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ 		if ( iTextPos++ == iArrLength ) {
+  			iTextPos = 0;
+  			iIndex++;
+ 		 if ( iIndex != aText.length ) {
+ 		  iArrLength = aText[iIndex].length;
+ 		  setTimeout("typewriter()", 500);
+		  }
+		 } else {
+		  setTimeout("typewriter()", iSpeed);
+		 }
+		}
 
-	function typeWriter() 
-		{if (i < txt.length) 
-  	{document.getElementById("firstparagraph").innerHTML += txt.charAt(i);
-    i++;
-    	setTimeout(typeWriter, speed);
-  	}
-	}
+	typewriter();
 	</script>
 </nav>
 
+<nav id="thirdpart">
 
+	<p id="firstsentencerepeatone">
+		Where   have   I   been?
+	</p>
+	<p id="secondsentencepartonerepeatone">
+	Listen, 
+		I have been
+	</p>
+	<p id="secondsentenceparttworepeatone">
+		diffused by clouds.
+	</p>
+	<p id="secondsentenceparttwofaderepeatone">
+		diffused by clouds.
+	</p>
+</nav>
+
+<nav id="fourthpart">
+	<p id="fourthsentence">
+	And you can hear me as I crash back, break the surface, and sink into the luminescent blue bubbles.
+	</p>
+	<script>
+	// set up text to print, each item in array is new line
+	var aText = new Array( "And you can hear me as I crash back, break the surface, and sink into the luminescent blue bubbles.");
+	var iSpeed = 100; // time delay of print out
+	var iIndex = 0; // start printing array at this posision
+	var iArrLength = aText[0].length; // the length of the text array
+	var iScrollAt = 20; // start scrolling up at this many lines
+ 
+	var iTextPos = 0; // initialise text position
+	var sContents = ''; // initialise contents variable
+	var iRow; // initialise current row
+ 
+	function typewriter()
+	{
+ 	sContents =  ' ';
+ 	iRow = Math.max(0, iIndex-iScrollAt);
+ 	var destination = document.getElementById("fourthsentence");
+ 
+ 	while ( iRow < iIndex ) {
+  	sContents += aText[iRow++] + '<br />';
+ 		}
+ 	destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ 		if ( iTextPos++ == iArrLength ) {
+  			iTextPos = 0;
+  			iIndex++;
+ 		 if ( iIndex != aText.length ) {
+ 		  iArrLength = aText[iIndex].length;
+ 		  setTimeout("typewriter()", 500);
+		  }
+		 } else {
+		  setTimeout("typewriter()", iSpeed);
+		 }
+		}
+
+	typewriter();
+	</script>
+</nav>
+
+<nav id="fifthpart">
+	<p id="firstsentencerepeattwo">
+		Where   have   I   been?
+	</p>
+</nav>
+
+<nav id="sixthpart">
+	<p id="fifthsentence">
+		Look, you can see me as I linger on the dark sand beaches at night. I glow across the horizon line you set your foot on reaching in both directions for miles.
+	</p>
+	<script>
+	var aText = new Array(
+	"Look, you can see me as I linger on the dark sand beaches at night. I glow across the horizon line you set your foot on reaching in both directions for miles.");
+	var iSpeed = 100; // time delay of print out
+	var iIndex = 0; // start printing array at this posision
+	var iArrLength = aText[0].length; // the length of the text array
+	var iScrollAt = 20; // start scrolling up at this many lines
+ 
+	var iTextPos = 0; // initialise text position
+	var sContents = ''; // initialise contents variable
+	var iRow; // initialise current row
+ 
+	function typewriter()
+	{
+ 	sContents =  ' ';
+ 	iRow = Math.max(0, iIndex-iScrollAt);
+ 	var destination = document.getElementById("fifthsentence");
+ 
+ 	while ( iRow < iIndex ) {
+ 	 sContents += aText[iRow++] + '<br />';
+ 	}
+ 	destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ 	if ( iTextPos++ == iArrLength ) {
+  	iTextPos = 0;
+  	iIndex++;
+  	if ( iIndex != aText.length ) {
+  	 iArrLength = aText[iIndex].length;
+  	 setTimeout("typewriter()", 500);
+  	}
+ 	} else {
+  	setTimeout("typewriter()", iSpeed);
+ 	}
+	}
+	typewriter();
+	</script>
+</nav>
+
+<nav id="seventhpart">
+	<p id="firstsentencerepeatthree">
+	Where   have   I   been?
+	</p>
+
+	<p id="secondsentencepartonerepeattwo">
+	Listen, 
+		I have been
+	</p>
+	<p id="secondsentenceparttworepeattwo">
+		diffused by clouds.
+	</p>
+	<p id="secondsentenceparttwofaderepeattwo">
+		diffused by clouds.
+	</p>
+</nav>
+
+<nav id="eighthpart">
+	<p id="sixthsentence">
+		I have joined the moon, I am now her light.
+		You can see me settle upon your nose and cheeks, upon the trees, upon the fingers you run along the seams of your childhood bed sheets.
+	</p>
+	<script>
+	var aText = new Array( "I have joined the moon, I am now her light."
+		"You can see me settle upon your nose and cheeks, upon the trees, upon the fingers you run along the seams of your childhood bed sheets.");
+	var iSpeed = 100; 
+	var iIndex = 0; 
+	var iArrLength = aText[0].length; 
+	var iScrollAt = 20; 
+ 
+	var iTextPos = 0;
+	var sContents = '';
+	var iRow;
+ 
+	function typewriter()
+	{
+ 	sContents =  ' ';
+ 	iRow = Math.max(0, iIndex-iScrollAt);
+ 	var destination = document.getElementById("sixthsentence");
+ 
+ 	while ( iRow < iIndex ) {
+  	sContents += aText[iRow++] + '<br />';
+ 		}
+ 	destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ 		if ( iTextPos++ == iArrLength ) {
+  			iTextPos = 0;
+  			iIndex++;
+ 		 if ( iIndex != aText.length ) {
+ 		  iArrLength = aText[iIndex].length;
+ 		  setTimeout("typewriter()", 500);
+		  }
+		 } else {
+		  setTimeout("typewriter()", iSpeed);
+		 }
+		}
+	typewriter();
+	</script>
+</nav>
 
 </body>
 </html>
