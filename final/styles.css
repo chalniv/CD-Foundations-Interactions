@@ -1,0 +1,163 @@
+html, body {
+	font-family: 'Stylish', sans-serif;
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+	cursor: url(/images/mouse.png), auto;
+	background: #7F8E54;
+}
+
+
+#projects {
+/* projects */
+position: absolute;
+width: 280px;
+height: 46px;
+left: 914px;
+top: 94px;
+
+font-family: Stylish;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: lowercase;
+
+color: #ECE5E9;
+
+}
+
+#about {
+/* about */
+position: absolute;
+width: 280px;
+height: 46px;
+left: 149px;
+top: 803px;
+
+font-family: Stylish;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: lowercase;
+
+color: #ECE5E9;}
+
+#home {
+/* home */
+position: absolute;
+width: 280px;
+height: 46px;
+left: 149px;
+top: 803px;
+
+font-family: Stylish;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: lowercase;
+
+color: #ECE5E9;}
+
+
+@keyframes hoverstate {
+from {color:#ECE5E9}
+to {color:#994F43}
+}
+
+#abouttext {
+	animation-name: hoverstate;
+	animation-duration: 12s;
+}
+
+#projects:hover {
+	color:#994F43;
+}
+
+#about:hover {
+	color:#994F43;
+}
+
+#home:hover {
+	color:#994F43;
+}
+
+.vinesandberries {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.vine6 {
+  	fill: none;
+    stroke: #485727;
+    stroke-width: 1px;
+    stroke-dasharray: 1550; 
+    stroke-dashoffset: 1550;
+    animation-direction: alternate-reverse;
+    animation: move 7s linear infinite;     
+}
+
+@keyframes move {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.vine7 {
+  	fill: none;
+    stroke: #485727;
+    stroke-width: 1px;
+    stroke-dasharray: 1550; 
+    stroke-dashoffset: 1550;
+    animation-delay: 3s;
+    animation-direction: alternate;
+   	animation: move 7s linear infinite;     
+}
+
+@keyframes move {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.vine8 {
+  	fill: none;
+    stroke: #485727;
+    stroke-width: 1px;
+    stroke-dasharray: 1550; 
+    stroke-dashoffset: 1550;
+    animation-delay: 5s;
+    animation-direction: alternate;
+  	animation: move 7s linear infinite;     
+}
+
+@keyframes move {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.vine9 {
+  	fill: none;
+    stroke: #485727;
+    stroke-width: 1px;
+    stroke-dasharray: 1550; 
+    stroke-dashoffset: 1550;
+    animation-delay: 7s;
+    animation-direction: alternate;
+    animation: move 7s linear infinite;     
+}
+
+@keyframes move {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
