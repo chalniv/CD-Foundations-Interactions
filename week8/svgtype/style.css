@@ -1,0 +1,525 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(images/background.jpg);
+}
+
+h1 {
+	position: absolute;
+	width: 729px;
+	height: 76px;
+	left: 355px;
+	top: 95px;
+	font-family: 'Zeyada', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 76px;
+	color: #FFFDF4;
+	text-shadow: 0px 0px 40px #FFFDF4;
+}
+
+h2 {
+	position: absolute;
+	width: 918px;
+	height: 25px;
+	left: 261px;
+	top: 186px;
+	font-family: 'Vollkorn SC', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFDF4;
+
+}
+
+#slytherinroomimage {
+	position: absolute;
+	width: 300px;
+	height: 178px;
+	left: 147px;
+	top: 347px;
+	filter: blur(0.5px);
+}
+
+#sarcasticvenomimage {
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	left: 565px;
+	top: 1027px;
+	filter: blur(0.5px);
+}
+
+#snakeeyeimage {
+	position: absolute;
+	width: 80px;
+	height: 111.73px;
+	left: 1306px;
+	top: 525px;
+	filter: blur(0.5px);
+}
+
+#beestampimage {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 368px;
+	top: 741px;
+	filter: blur(0.5px);
+}
+
+#yellowpaintingimage {
+	position: absolute;
+	width: 160px;
+	height: 157.88px;
+	left: 1092px;
+	top: 390px;
+	filter: blur(0.5px);
+}
+
+#hufflepuffbookimage {
+	position: absolute;
+	width: 150px;
+	height: 125px;
+	left: 1243px;
+	top: 1048px;
+	filter: blur(0.5px);
+}
+
+#swordimage {
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	left: 956px;
+	top: 647px;
+	filter: blur(0.5px);
+}
+
+#gryffindorroomimage {
+	position: absolute;
+	width: 320px;
+	height: 164.71px;
+	left: 721px;
+	top: 431px;
+	filter: blur(0.5px);
+}
+
+#gryffindorlionimage {
+	position: absolute;
+	width: 150px;
+	height: 129.42px;
+	left: 1205px;
+	top: 694px;
+	filter: blur(0.5px);
+}
+
+#ravenwingimage {
+	position: absolute;
+	width: 200px;
+	height: 125px;
+	left: 530px;
+	top: 847px;
+	filter: blur(0.5px);
+}
+
+#ravenclawroomimage {
+	position: absolute;
+	width: 240px;
+	height: 180px;
+	left: 84px;
+	top: 567px;
+	filter: blur(0.5px);
+}
+
+#hufflepuffroomimage {
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	left: 777px;
+	top: 899px;
+	filter: blur(0.5px);
+}
+
+#nightowlimage {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 773px;
+	top: 708px;
+	filter: blur(0.5px);
+}
+
+#slitheringsnakeimage {
+	position: absolute;
+	width: 120px;
+	height: 179.18px;
+	left: 1053px;
+	top: 848px;
+	filter: blur(0.5px);
+}
+
+#ravenclawbookimage {
+	position: absolute;
+	width: 190px;
+	height: 154.38px;
+	left: 108px;
+	top: 796px;
+	filter: blur(0.5px);
+}
+
+#slytherinpensimage {
+	position: absolute;
+	width: 100px;
+	height: 99.2px;
+	left: 580px;
+	top: 461px;
+	filter: blur(0.5px);
+}
+
+#badgerimage {
+	position: absolute;
+	width: 150px;
+	height: 132.98px;
+	left: 338px;
+	top: 919px;
+	filter: blur(0.5px);
+}
+
+#advpotionsbookimage {
+	position: absolute;
+	width: 140px;
+	height: 169.35px;
+	left: 580px;
+	top: 628px;
+	filter: blur(0.5px);
+}
+
+#gryffindortentimage {
+	position: absolute;
+	width: 150px;
+	height: 112.5px;
+	left: 388px;
+	top: 596px;
+	filter: blur(0.5px);
+}
+
+#slytherinroom {
+	position: absolute;
+	width: 298.11px;
+	height: 136.52px;
+	left: 148.61px;
+	top: 347.2px;
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+
+#slytherinroom:hover {
+	animation-play-state: running;
+}
+
+#slytherinpens {
+	position: absolute;
+	width: 99.69px;
+	height: 89.37px;
+	left: 580.37px;
+	top: 464.66px;
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+
+#slytherinpens:hover {
+	animation-play-state: running;
+}
+
+#beestamp {
+	position: absolute;
+	width: 55.7px;
+	height: 53.68px;
+	left: 398.15px;
+	top: 778.82px;
+	animation: hufflepuffcolor 2s;
+	animation-play-state: paused;
+}
+
+#beestamp:hover {
+	animation-play-state: running;
+}
+
+#sword {
+	position: absolute;
+	width: 167.82px;
+	height: 116.15px;
+	left: 986.1px;
+	top: 663.3px;
+	animation: gryffindorcolor 2s;
+	animation-play-state: paused;
+}
+
+#sword:hover {
+	animation-play-state: running;
+}
+
+#advpotionsbook {
+	position: absolute;
+	width: 138.05px;
+	height: 166.28px;
+	left: 580.59px;
+	top: 628.85px;
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+
+#advpotionsbook:hover {
+	animation-play-state: running;
+}
+
+#ravenclawbook {
+	position: absolute;
+	width: 188.02px;
+	height: 144.39px;
+	left: 108.74px;
+	top: 804.46px;
+	animation: ravenclawcolor 2s;
+	animation-play-state: paused;
+}
+
+#ravenclawbook:hover {
+	animation-play-state: running;
+}
+
+#slitheringsnake {
+	position: absolute;
+	width: 118.74px;
+	height: 120.44px;
+	left: 1053.53px;
+	top: 873.34px;
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+
+#slitheringsnake:hover {
+	animation-play-state: running;
+}
+
+#gryffindorlion {
+	position: absolute;
+	width: 146.17px;
+	height: 103.65px;
+	left: 1205.71px;
+	top: 694.14px;
+	animation: gryffindorcolor 2s;
+	animation-play-state: paused;
+}
+
+#gryffindorlion:hover {
+	animation-play-state: running;
+}
+
+#gryffindortent {
+	position: absolute;
+	width: 150.2px;
+	height: 108.65px;
+	left: 387.38px;
+	top: 596.68px;
+	animation: gryffindorcolor 2s;
+	animation-play-state: paused;
+}
+
+#gryffindortent:hover {
+	animation-play-state: running;
+}
+
+#gryffindorroom {
+	position: absolute;
+	width: 265.28px;
+	height: 164.39px;
+	left: 744.35px;
+	top: 430.62px;
+	animation: gryffindorcolor 2s;
+	animation-play-state: paused;
+}
+
+#gryffindorroom:hover {
+	animation-play-state: running;
+}
+
+#ravenwing {
+	position: absolute;
+	width: 187.23px;
+	height: 122.19px;
+	left: 542.3px;
+	top: 849.51px;
+	animation: ravenclawcolor 2s;
+	animation-play-state: paused;
+}
+
+#ravenwing:hover {
+	animation-play-state: running;
+}
+
+#nightowl {
+	position: absolute;
+	width: 49.55px;
+	height: 50.46px;
+	left: 807.43px;
+	top: 761.7px;
+	animation: ravenclawcolor 2s;
+	animation-play-state: paused;
+}
+
+#nightowl:hover {
+	animation-play-state: running;
+}
+
+#snakeeye {
+	position: absolute;
+	width: 77.2px;
+	height: 99.05px;
+	left: 1308.51px;
+	top: 536.15px;
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+
+#snakeeye:hover {
+	animation-play-state: running;
+}
+
+#hufflepuffbook {
+	position: absolute;
+	width: 121.63px;
+	height: 143.89px;
+	left: 1244.98px;
+	top: 898.83px;
+	animation: hufflepuffcolor 2s;
+	animation-play-state: paused;
+}
+
+#hufflepuffbook:hover {
+	animation-play-state: running;
+}
+
+#sarcasticvenom {
+	position: absolute;
+	width: 54.69px;
+	height: 111.52px;
+	left: 601.53px;
+	top: 1035.4px;
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+
+#sarcasticvenom:hover {
+	animation-play-state: running;
+}
+
+#badger {
+	position: absolute;
+	width: 149.32px;
+	height: 104.93px;
+	left: 338.04px;
+	top: 919.96px;
+	animation: hufflepuffcolor 2s;
+	animation-play-state: paused;
+}
+
+#badger:hover {
+	animation-play-state: running;
+}
+
+#hufflepuffroom {
+	position: absolute;
+	width: 228.78px;
+	height: 229.6px;
+	left: 777.19px;
+	top: 899.36px;
+	animation: hufflepuffcolor 2s;
+	animation-play-state: paused;
+}
+
+#hufflepuffroom:hover {
+	animation-play-state: running;
+}
+
+#yellowpainting {
+	position: absolute;
+	width: 159.15px;
+	height: 155.55px;
+	left: 1092.03px;
+	top: 391.73px;
+	animation: hufflepuffcolor 2s;
+	animation-play-state: paused;
+}
+
+#yellowpainting:hover {
+	animation-play-state: running;
+}
+
+#ravenclawroom {
+	position: absolute;
+	width: 239.93px;
+	height: 177.26px;
+	left: 83.96px;
+	top: 567.26px;
+	animation: ravenclawcolor 2s;
+	animation-play-state: paused;
+}
+
+#ravenclawroom:hover {
+	animation-play-state: running;
+}
+
+@keyframes slytherincolor {
+	from {color: #FFFFFF;}
+	to {color: #1a472a;}
+}
+
+@keyframes hufflepuffcolor {
+	from {color: #FFFFFF;}
+	to {color: #E9AC2D;}
+}
+
+@keyframes gryffindorcolor {
+	from {color: #FFFFFF;}
+	to {color: #CD373C;}
+}
+
+@keyframes ravenclawcolor {
+	from {color: #FFFFFF;}
+	to {color: #082664;}
+}
+
+.slytherin {
+	animation: slytherincolor 2s;
+	animation-play-state: paused;
+}
+.slytherin:hover {
+	animation-play-state: running;
+}
+
+.hufflepuff {
+	animation: hufflepuffcolor 2s;
+	animation-play-state: paused;
+}
+.hufflepuff:hover {
+	animation-play-state: running;
+}
+
+.gryffindor {
+	animation: gryffindorcolor 2s;
+	animation-play-state: paused;
+}
+.gryffindor:hover {
+	animation-play-state: running;
+}
+
+.ravenclaw {
+	animation: ravenclawcolor 2s;
+	animation-play-state: paused;
+}
+.ravenclaw:hover {
+	animation-play-state: running;
+}
