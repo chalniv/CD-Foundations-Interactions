@@ -1,0 +1,50 @@
+html, body {
+			position: relative;
+			max-width: 1451px;
+			height: 1024px;
+			background: #F4F3EA;
+			margin-top: 0px;
+			margin-left: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
+
+@keyframes curl {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+	#arrow:hover {
+		fill: none;
+	    stroke: #000000;
+	    stroke-width: 1px;
+	    stroke-dasharray: 700; 
+	    stroke-dashoffset: 700;
+	    animation-delay: 3s;
+	    animation-direction: alternate-reverse;
+	   	animation: curl 4s infinite; 
+	}
+
+h1 {
+  color: #000000;
+  font-family: Pirata One;
+  overflow: hidden;
+  border-right: .15em #000000;
+  white-space: normal;
+  margin: 0 auto;
+  letter-spacing: .55em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #000000 }
+}
